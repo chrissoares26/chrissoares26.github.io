@@ -23,7 +23,9 @@ header, footer {
     padding: 1.5rem;
 }
 
-
+h2 {
+    padding: 10px;
+}
 img {
     float: right;
     margin: 10px;
