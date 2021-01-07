@@ -34,6 +34,10 @@ img {
     overflow: auto;
     position: relative;
 }
-a footer {
-    color: white;
+
+#mainfoot a {
+    color: #fff;
+}
+#mainfoot a:hover {
+    color: #D04228;
 }
