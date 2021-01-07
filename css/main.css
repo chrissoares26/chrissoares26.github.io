@@ -1,0 +1,31 @@
+body {
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+
+}
+
+header,
+footer {
+    background-color: #182865;
+    color: #D04228;
+    text-align: center;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+
+img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #182865;
+    border-radius: 2px;
+}
