@@ -16,9 +16,10 @@ footer {
     background-color: #182865;
     color: #D04228;
     text-align: center;
+    border-radius: 10px;
 }
 
-header {
+header, footer {
     padding: 1.5rem;
 }
 
