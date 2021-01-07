@@ -32,6 +32,7 @@ img {
     border: 1px solid #182865;
     border-radius: 10px;
     overflow: auto;
+    position: relative;
 }
 a footer {
     color: white;
