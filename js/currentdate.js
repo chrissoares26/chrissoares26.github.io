@@ -1,2 +1,4 @@
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-document.getElementById('currentdate').textContent = new Date().lastModified('en-US', options);
+function lastModified() {
+    document.write(document.lastModified);
+}
+    lastModified();
