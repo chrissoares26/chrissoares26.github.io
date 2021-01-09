@@ -45,3 +45,7 @@ img {
 #mainfoot a:hover {
     color: #D04228;
 }
+
+#currentdate {
+    color: #fff;
+}
