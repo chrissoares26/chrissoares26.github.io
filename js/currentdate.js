@@ -1,1 +1,1 @@
-document.getElementById('currentdate').textContent = new Date(document.lastModified).toLocaleDateString();
+document.getElementById('currentdate').innerHTML = "<p> Last Updated: " + document.lastModified + "</p>"
