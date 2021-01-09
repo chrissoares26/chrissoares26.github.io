@@ -1,1 +1,1 @@
-document.getElementById('currentdate').innerHTML = "<p> Last Updated: " + document.lastModified + "</p>"
+document.getElementById('currentdate').innerHTML = document.lastModified
