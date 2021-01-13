@@ -30,8 +30,7 @@ header, footer {
 h2 {
     padding: 10px;
 }
-img {
-    float: right;
+header img {
     margin: 10px;
     border: 1px solid #182865;
     border-radius: 10px;
