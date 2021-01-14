@@ -25,6 +25,7 @@ footer {
 
 #mainfoot a {
     color: #fff;
+    text-decoration: none;
 }
 #mainfoot a:hover {
     color: pink;
