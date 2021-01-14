@@ -19,13 +19,10 @@ footer {
     background-color: #182865;
     color: pink;
     text-align: center;
-    
+    padding: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header, footer {
-    padding: 1.5rem;
-    font-family: Montserrat;
-}
 
 h2 {
     padding: 10px;
