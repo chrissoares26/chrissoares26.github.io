@@ -17,7 +17,7 @@ footer {
 header,
 footer {
     background-color: #182865;
-    color: #D04228;
+    color: pink;
     text-align: center;
     
 }
@@ -42,7 +42,7 @@ header img {
     color: #fff;
 }
 #mainfoot a:hover {
-    color: #D04228;
+    color: pink;
 }
 
 #currentdate {
