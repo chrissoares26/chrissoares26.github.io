@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+body {
+    font-size: 18px;
+    line-height: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+
+}
+
 header,
 footer {
     background-color: #182865;
