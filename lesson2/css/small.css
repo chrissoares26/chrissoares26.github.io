@@ -24,7 +24,8 @@ footer {
 }
 main {
     display: grid;
-    grid-template-columns: 1em 1em 1em;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
 
 }
 #block1 {
