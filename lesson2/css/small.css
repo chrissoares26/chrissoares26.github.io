@@ -22,3 +22,10 @@ footer {
     padding: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
+
+#mainfoot a {
+    color: #fff;
+}
+#mainfoot a:hover {
+    color: pink;
+}
