@@ -47,6 +47,9 @@ a {
 #block3 { 
     background-color: #d3d3d3;
 }
+#paragraphs {
+    padding: 5px;
+}
 #mainfoot a {
     color: #fff;
     text-decoration: none;
