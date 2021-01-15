@@ -20,8 +20,9 @@ img {
     max-width: 100%;
     margin: 10px;
 }
-div h2, p {
+div h2{
     margin: 10px;
+    background-color: #192964;
 
 }
 header,
@@ -40,20 +41,17 @@ main {
 }
 #block1 {
     grid-column: 1/2;
-    max-width: 270px;
-    background-color: gray;
+    background-color: #FEC0CA;
     
 }
 #block2 {
     grid-column: 2/3;
-    max-width: 270px;
-    background-color: gray;
+    background-color: #FEC0CA;
     
 }
 #block3 {
     grid-column: 3/4;
-    max-width: 270px;
-    background-color: gray;
+    background-color: #FEC0CA;
     
 }
 #mainfoot a {
