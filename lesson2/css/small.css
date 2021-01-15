@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@media only screen and (max-width:414px) {
+
 body {
     font-size: 18px;
     line-height: 1.5rem;
@@ -52,4 +54,5 @@ footer {
 }
 #mainfoot a:hover {
     color: pink;
+}
 }
