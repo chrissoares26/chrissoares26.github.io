@@ -33,7 +33,15 @@ footer {
     padding: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
-
+#block1 { 
+    background-color: #d3d3d3;
+}
+#block2 { 
+    background-color: #d3d3d3;
+}
+#block3 { 
+    background-color: #d3d3d3;
+}
 #mainfoot a {
     color: #fff;
     text-decoration: none;
