@@ -20,10 +20,13 @@ img {
     margin: 10px;
 }
 h3 {
-    margin: 10px;
+    padding: 10px;
     background-color: #192964;
     color: #FFBFC9;
 
+}
+p {
+    margin: 10px;
 }
 header,
 footer {
