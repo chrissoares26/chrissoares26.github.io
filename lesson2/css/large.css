@@ -18,6 +18,11 @@ footer {
 }
 img {
     max-width: 100%;
+    margin: 10px;
+}
+div h2, p {
+    margin: 10px;
+
 }
 header,
 footer {
