@@ -23,6 +23,7 @@ img {
 div h2{
     margin: 10px;
     background-color: #192964;
+    color: #FFBFC9;
 
 }
 header,
@@ -41,17 +42,17 @@ main {
 }
 #block1 {
     grid-column: 1/2;
-    background-color: #FEC0CA;
+    background-color: #d3d3d3;
     
 }
 #block2 {
     grid-column: 2/3;
-    background-color: #FEC0CA;
+    background-color: #d3d3d3;
     
 }
 #block3 {
     grid-column: 3/4;
-    background-color: #FEC0CA;
+    background-color: #d3d3d3;
     
 }
 #mainfoot a {
