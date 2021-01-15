@@ -46,7 +46,6 @@ main {
 #block1 {
     grid-column: 1/2;
     background-color: #d3d3d3;
-    overflow: hidden;
     
 }
 #block2 {
