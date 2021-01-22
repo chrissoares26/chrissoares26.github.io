@@ -18,13 +18,15 @@ a {
     border-radius: 15px;
     text-align: center;
     padding: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.25rem auto;
   }
   
   h1 {
-    font-family: 'Montserrat', sans-serif;
+   
     font-size: 2.5em;
-    padding-top: 15px;
-    text-align: center;
+    
+    
   }
   
   h2 {
