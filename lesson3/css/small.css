@@ -11,7 +11,7 @@ a {
     background-color: white;
   }
   
-  header {
+  header, footer {
     background-color:  #182865;
     color: pink;
     justify-content: space-between;
@@ -113,11 +113,11 @@ a {
       color: white;
   }
   #copyright {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   #lastUpdate {
     font-size: 1.0em;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-top: 5px;
   }
