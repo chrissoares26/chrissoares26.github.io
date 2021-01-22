@@ -121,3 +121,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     padding-top: 5px;
   }
+
+  #colorback {
+      background-color: #2f2f2f;
+  }
