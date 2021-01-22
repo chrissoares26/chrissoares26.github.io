@@ -14,7 +14,7 @@ a {
   header {
     background-color:  #182865;
     color: pink;
-    justify-content: space-between;
+    
     border-radius: 15px;
     padding-bottom: 22px;
   }
@@ -107,8 +107,8 @@ a {
   }
   
   footer {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #182865;
+    color: pink;
     font-size: 1em;
     text-align: center;
     padding-top: 10px;
