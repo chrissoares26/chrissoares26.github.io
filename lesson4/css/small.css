@@ -66,20 +66,13 @@ nav {
 
   
 footer {
-    background-color: #182865;
-    color: pink;
-    font-size: 1em;
-    text-align: center;
-    padding-top: 10px;
+    color: #8fe0ff;
 }
 footer a {
       color: white;
 }
-#copyright {
-    font-family: 'Montserrat', sans-serif;
-}
   
-#lastUpdate {
+#copyright, #lastUpdate {
     font-size: 1.0em;
     font-family: 'Montserrat', sans-serif;
     padding-top: 5px;
