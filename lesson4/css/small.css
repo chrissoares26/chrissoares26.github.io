@@ -10,9 +10,19 @@ header {
 
 header img {
     width: 80px;
-    
+
 }
 
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #8fe0ff;
+}
   
 footer {
     background-color: #182865;
