@@ -85,17 +85,11 @@ main {
 	display: block;
 }
 
-  
 footer {
-    background-color: #182865;
-    color: pink;
-    font-size: 1em;
-    text-align: center;
-    padding-top: 10px;
+    color: #8fe0ff;
 }
-footer a {
-      color: white;
-}
+  
+
 #copyright {
     font-family: 'Montserrat', sans-serif;
 }
