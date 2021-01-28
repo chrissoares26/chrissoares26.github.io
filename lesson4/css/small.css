@@ -7,8 +7,11 @@ header, footer {
     align-items: center;
     justify-content: center;
     max-width: 760px;
-    margin: 0 auto;
+    margin:0 auto;
+    
 }
+
+
 
 header img {
     width: 80px;
@@ -21,6 +24,7 @@ header img {
 }
 
 .headings h1 {
+	font-family: 'Montserrat';
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     color: #8fe0ff;
@@ -28,6 +32,8 @@ header img {
 
 .m {
     font-style: italic;
+    color: #8fe0ff;
+    margin: 0 0 0 17px;
 }
 
 nav {
@@ -67,13 +73,20 @@ nav {
 
   
 footer {
-    color: #8fe0ff;
+    background-color: #182865;
+    color: pink;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 10px;
 }
 footer a {
       color: white;
 }
+#copyright {
+    font-family: 'Montserrat', sans-serif;
+}
   
-#copyright, #lastUpdate {
+#lastUpdate {
     font-size: 1.0em;
     font-family: 'Montserrat', sans-serif;
     padding-top: 5px;
