@@ -63,7 +63,9 @@ nav {
 	background-color: #312553;
 }
 
+
 main {
+    max-width: 760px;
     background-color: #fffafa;
     margin: 0 auto;
 }
