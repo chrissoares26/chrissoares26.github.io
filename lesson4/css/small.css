@@ -69,10 +69,11 @@ main {
 }
 
 .contents{
+    max-width: 740px;
     display: block;
     margin: 10px auto;
     border: 1px dashed black;
-    padding: 15px;
+    padding: 10px;
     background-color: lightslategray;
     color: white;
     font-style: italic;
