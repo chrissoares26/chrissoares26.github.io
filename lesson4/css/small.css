@@ -11,11 +11,6 @@ header, footer {
     
 }
 
-main {
-    background-color: #fffafa;
-    margin: 0 auto;
-}
-
 
 header img {
     width: 80px;
@@ -66,6 +61,21 @@ nav {
 .navigation a:hover {
 	color: #8fe0ff;
 	background-color: #312553;
+}
+
+main {
+    background-color: #fffafa;
+    margin: 0 auto;
+}
+
+.contents{
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: lightslategray;
+    color: white;
+    font-style: italic;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
