@@ -11,6 +11,10 @@ header, footer {
     
 }
 
+main {
+    background-color: #fffafa;
+    margin: 0 auto;
+}
 
 
 header img {
