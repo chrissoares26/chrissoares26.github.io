@@ -19,20 +19,13 @@
           font-size: 2.5em;
       }
   
-      .motto {
+      .m {
           letter-spacing: 1.5pt;
           font-size: larger;
       }
-  
-    footer {
-      border-radius: 15px;
-      height: 55px;
-      max-width: 1000px;
-    }
-  
-    main {
-      max-width: 1000px;
-    }
+  main {
+    margin: 0 auto;
+  }
   
     .nav_bar {
           display: flex;
@@ -50,5 +43,9 @@
       .nav_bar li:first-child {
           display: none;
     }
+    footer {
+        border-radius: 15px;
+        height: 40px;
+      }
     
   }
