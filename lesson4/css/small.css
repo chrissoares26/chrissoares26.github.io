@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-header, footer {
+header {
     background-color: #312553;
     padding: 5px 0;
     display: flex;
@@ -89,12 +89,18 @@ main {
 }
 
 footer {
+	background-color: #312553;
+	max-width:760px;
+	margin:0 auto;
     color: #8fe0ff;
     font-size: 1em;
     text-align: center;
     padding-top: 10px;
 }
-  
+
+footer a:visited {
+	color:white;
+} 
 
 #copyright {
     font-family: 'Montserrat', sans-serif;
@@ -105,5 +111,3 @@ footer {
     font-family: 'Montserrat', sans-serif;
     padding-top: 5px;
 }
-
-  
