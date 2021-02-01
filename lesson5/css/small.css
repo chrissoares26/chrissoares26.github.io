@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header {
+    background-color: #312553;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 760px;
+    margin:0 auto;
+    
+}
+
+
+header img {
+    width: 80px;
+
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+	font-family: 'Montserrat';
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #8fe0ff;
+}
+
+.m {
+    font-style: italic;
+    color: #8fe0ff;
+    margin: 0 0 0 17px;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #8fe0ff;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #312553;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #8fe0ff;
+	background-color: #312553;
+}
+
+
+main {
+    max-width: 760px;
+    background-color: #fffafa;
+    margin: 0 auto;
+}
+
+.contents{
+    max-width: 740px;
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 10px;
+    background-color: lightslategray;
+    color: white;
+    font-style: italic;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+footer {
+	background-color: #312553;
+	max-width:760px;
+	margin:0 auto;
+    color: #8fe0ff;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a:visited {
+	color:white;
+} 
+
+#copyright {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+#lastUpdate {
+    font-size: 1.0em;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+}
