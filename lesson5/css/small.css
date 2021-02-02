@@ -58,9 +58,14 @@ header img {
 }
 
 .summary p {
-  color: #05386B;
-  font-weight: bolder;
-}
+    color: #8fe0ff;
+    font-weight: bolder;
+  }
+  
+  .summary h3 {
+    color: white;
+    font-weight: bolder;
+  }
 .m {
     font-style: italic;
     color: #8fe0ff;
