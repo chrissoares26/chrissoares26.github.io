@@ -11,6 +11,15 @@ header {
     
 }
 
+#announce {
+    display: none;
+    background-color: #312553;
+    color: #8fe0ff;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bold;
+  }
 
 header img {
     width: 80px;
@@ -28,7 +37,13 @@ header img {
     margin: 0 0 0 17px;
     color: #8fe0ff;
 }
-
+.herodiv {
+	margin: 10px auto;
+  position: relative;}
+  
+.herodiv img {
+  width: 100%;
+}
 .m {
     font-style: italic;
     color: #8fe0ff;
