@@ -71,7 +71,22 @@ header img {
     color: #8fe0ff;
     margin: 0 0 0 17px;
 }
-
+#map {
+    margin: auto;
+    border: 2px solid #05386b;
+  }
+.forecastdiv {
+    display: none;
+  }
+  
+#forecastDay {
+    background-color: #312553;
+    color: #8fe0ff;
+    font-family: 'Montserrat', sans-serif;
+  }
+.forecastdiv h3, .articlediv h3 {
+    text-align: center;
+  }  
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -121,6 +136,21 @@ main {
     color: white;
     font-style: italic;
 }
+
+.articlediv p {
+    color: #05386B;
+  }
+  
+  .articlediv {
+      display: block;
+      margin-top: 15px;
+      padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  #article_img {
+    width: 100%;
+  }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
