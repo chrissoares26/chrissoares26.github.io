@@ -6,7 +6,7 @@ var date = d.getDate();
 var month = d.getMonth();
 var year = d.getFullYear();
 
-if (day1[day] == 'Monday') {
+if (day1[day] == 'Friday') {
     document.getElementById("announce").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
     document.getElementById("announce").style.display = "block";
 }
