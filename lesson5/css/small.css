@@ -94,8 +94,8 @@ nav {
 	background-color: #312553;
 }
 
-nav ul li .active a {
-    background-color: rgba(0, 0, 0, 0.1);
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 
