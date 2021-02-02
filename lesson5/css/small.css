@@ -42,7 +42,7 @@ header img {
   position: relative;}
   
 .herodiv img {
-  max-width: 960px;
+  width: 100%;
 }
 
 .summary {
