@@ -151,6 +151,15 @@ main {
   #article_img {
     width: 100%;
   }
+.forecastdiv {
+	display: none;
+}
+
+#fiveDay img {
+	width:40%;
+
+}
+
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
