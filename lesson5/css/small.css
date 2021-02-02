@@ -141,14 +141,14 @@ main {
     color: #54416d;
   }
   
-  .articlediv {
+.articlediv {
       display: block;
       margin-top: 15px;
       padding: 10px;
     border: 1px solid #000;
-  }
+}
   
-  #article_img {
+#article_img {
     width: 100%;
   }
 .forecastdiv {
