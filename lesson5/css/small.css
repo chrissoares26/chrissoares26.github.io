@@ -49,11 +49,12 @@ header img {
 	position: absolute;
   top: 0px;
   font-size: .75em;
-	background: radial-gradient(#eee, #EDF5E1);
+	background: radial-gradient(#54416d, #312553);
 	border: 1px solid #000;
 	padding: 5px;
 	box-shadow: 0 0 30px #111;
-	opacity: .8;
+    opacity: .8;
+    margin: 10px 0 0 10px;
 }
 
 .summary p {
