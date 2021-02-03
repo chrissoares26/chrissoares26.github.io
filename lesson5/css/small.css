@@ -160,6 +160,27 @@ main {
 
 }
 
+#map {
+  margin: auto;
+  border: 2px solid #05386b;
+}
+.contactdiv {
+	display: grid;
+	grid-template-columns: 1fr;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+	border: 1px solid #000;
+}
+.contact_info {
+  grid-column: 1;
+  margin: auto;
+}
+
+.contact_info h3, .contact_info h4 {
+  text-align: center;
+  color: #05386B;
+}
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
