@@ -89,7 +89,7 @@ header img {
   }  
 nav {
 	margin: 0 auto;
-	max-width: 760px;
+	width:100%;
 	background-color: #8fe0ff;
 }
 .navigation {
