@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Soares">
+    <meta name="description" content="Chris Soares' Weather Site Project Plan Home Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">      
+    <title>Preston Weather Page</title>
+  </head>
+<body>
+    <div id="announce" style="display: block;"></div>
+    <header>
+        <picture>
+        <img src="images/logoweather.png" alt="The Weather Guy Logo">
+        </picture>
+        <section class ="headings">
+            <h1>The Weather Guy</h1>
+            <div class="m">"Everything that you need to know"</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a class="ham" href="#">&#9776; Menu</a>
+            </li>
+            <li> 
+                <a href="#">Home</a>
+            </li>
+            <li class="active"> 
+             <a href="preston-6.html">Preston</a>
+            </li>
+            <li> 
+                <a href="#">Soda Springs</a>
+            </li>
+            <li> 
+                <a href="#">Fish Haven</a>
+            </li>
+            <li> 
+                <a href="#">Storm Center</a>
+            </li>
+            <li> 
+                <a href="#">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+            <img src="images/landscape1.jpg" alt="nice_landscape">
+              <section class="summary">
+               <h3>Weather Summary</h3>
+                 <p>Currently: Cloudy</p>
+                 <p>High: 70 °F</p>
+                 <p>Wind Chill: °F</p>
+        <p>Humidity: 40%</p>
+        <p>Wind Speed: 4 mph</p>
+              </section>
+        </div>
+        <div class="forecastdiv">
+            <h3>5 Day Forecast</h3>
+            <table id="fiveDay">
+      <thead>
+          <tr id="forecastDay">
+              <th>Mon</th>
+              <th>Tues</th>
+              <th>Wed</th>
+              <th>Thurs</th>
+              <th>Fri</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                  <img src="images/sun.png" alt="Image of Day 1 Forecast">
+                  <br>
+                  <span class="degrees">80 °F</span>
+              </td>
+              <td>
+                  <img src="images/cloud.png" alt="Image of Day 2 Forecast">
+                  <br>
+                  <span class="degrees">75 °F</span>
+              </td>
+              <td>
+                  <img src="images/rain.png" alt="Image of Day 3 Forecast">
+                  <br>
+                  <span class="degrees">70 °F</span>
+              </td>
+              <td>
+                  <img src="images/cloud.png" alt="Image of Day 4 Forecast">
+                  <br>
+                  <span class="degrees">74 °F</span>
+              </td>
+              <td>
+                  <img src="images/sun.png" alt="Image of Day 5 Forecast">
+                  <br>
+                  <span class="degrees">75 °F</span>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+        </div>
+        <div class="articlediv">
+            <img id="article_img" src="images/articleimg.jpg" alt="Storm Image">
+            <h3>Articles</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate nulla soluta, eveniet vel cum recusandae sint iure vitae nobis totam temporibus distinctio dicta nam doloribus. Expedita fuga enim in consequatur illo excepturi ex omnis rem inventore, vel, a aliquam sequi vero. Fugit, modi velit! Iusto sit beatae, nisi quidem similique itaque aliquam aspernatur commodi ad error aut, eveniet fugit eligendi consequatur odit dolore! Veritatis sunt odio unde amet quas rem reprehenderit, fugiat quod velit libero cupiditate perferendis. Tenetur corporis ullam tempore. Ratione quo, voluptates commodi placeat aliquam aperiam explicabo, minima laborum nam consequatur tenetur magni, at vitae accusantium amet.</p>
+          </div>
+          <div class="contactdiv">
+            <div class="contact_info">
+              <h4>Contact Information</h4>
+              <h3>1234 Preston Main</h3>
+              <h3>Preston, Idaho 83035</h3>
+              <h3>111-222-3333</h3>
+              <h3>contact@theweatherguy.com</h3>
+            </div>
+            <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+            <a href="https://www.embedgooglemap.net/en/"></a>
+            <ul id="social" class="clearfix">
+                <li>
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com"> 
+                    <img class="icon" src="images/facebook.png" alt="facebook"></a>
+                </li>
+                <li>
+                <a class="socialmedia" target="_blank" href="https://twitter.com"> 
+                    <img class="icon" src="images/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                <a class="socialmedia" target="_blank" href="https://www.instagram.com">
+                    <img class="icon" src="images/instagram.png" alt="instagram"></a>
+                </li>
+            </ul>
+
+          </div>
+    <footer>
+        <div>
+          &copy;<span id="copyright"></span> | Chris Soares | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+        <span id="dates"></span>
+      </footer>
+      <script src="js/currentdate.js"></script>
+      <script src="js/hambutton.js"></script>
+      <script src='js/windchill.js'></script>
+      <script>
+        WebFont.load({
+      google: {
+        families: [
+           "Montserrat"
+        ]
+      }
+    });
+      </script>
+    </body>
+  </html>
