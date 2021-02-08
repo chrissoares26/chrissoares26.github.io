@@ -51,7 +51,11 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="herodiv">
-            <img src="images/landscape1.jpg" alt="nice_landscape">
+            <picture>
+                <source media="(max-width: 400px)" srcset="/lesson6/images/sunny_400.jpg">
+                <source media="(max-width: 800px)" srcset="/lesson6/images/sunny_800.jpg">
+                <img src="/lesson6/images/sunny_1200.jpg" alt="Sunny Sky">
+              </picture>
               <section class="summary">
                <h3>Weather Summary</h3>
                  <p>Currently: Cloudy</p>
