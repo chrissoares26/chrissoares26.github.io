@@ -1,0 +1,120 @@
+a {
+    color: #05386B;
+    font-weight: bold;
+  }
+  
+  body {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffafa;
+    text-align: center;
+  }
+  
+  [data-src] {
+    min-width: 50px;
+    min-height: 50px;
+  }
+  
+  header {
+    background-color: #312553;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 760px;
+    margin:0 auto;
+    
+}
+  
+  header img {
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading h1 {
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #05386b;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5cdb95;
+    text-shadow: 1px 1px 1px #05386b;
+  }
+  
+  h3 {
+    font-family: Century-Schoolbook;
+    font-size: 1.2em;
+    color: #5cdb95;
+    text-shadow: .5px .5px .5px #05386b;
+  }
+  
+  h4 {
+    text-decoration: underline;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  main {
+    margin: auto;
+    max-width: 400px;
+  }
+  
+  .motto {
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: 1pt;
+    color: #379683;
+  }
+  
+  p {
+    font-family: Century-Schoolbook;
+    font-size: 1em;
+    color:	#5CDB95;
+  }
+  
+  img[data-src] {
+    filter: blur(.4em);
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    margin-top: 50px;
+  }
+  
+  footer {
+    background-color:#379683;
+    color: #05386B;
+    font-family: Century-Gothic;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 15px;
+  }
+  
+  #copyright {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  #dates {
+    font-size: 1.0em;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 5px;
+  }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Soares">
+    <meta name="description" content="Lazy Load Image Page">
+    <link rel="stylesheet" href="/lesson7/css/lazyload.css">      
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <main>
+        <img src="/lesson7/img/placeholder.jpg" data-src="/lesson7/img/hurricane.jpg" alt="Hurricane">
+        <img src="/lesson7/img/placeholder.jpg" data-src="/lesson7/img/storm1.jpg" alt="Storm Weather">
+        <img src="/lesson7/img/placeholder.jpg" data-src="/lesson7/img/storm2.jpg" alt="Storm and mountains">
+        <img src="/lesson7/img/placeholder.jpg" data-src="/lesson7/img/storm3.jpg" alt="Storm near lake">
+        <img src="/lesson7/img/placeholder.jpg" data-src="/lesson7/img/storm4.jpg" alt="Big storm">
+        <img src="/lesson7/img/placeholder.jpg" data-src="/lesson7/img/storm5.jpg" alt="snow storm">
+    </main>
+    <script src="/lesson7/js/lazyload.js"></script>
+    <script>
+        WebFont.load({
+      google: {
+        families: [
+           "Montserrat"
+        ]
+      }
+    });
+      </script>
+  </body>
+</html>
