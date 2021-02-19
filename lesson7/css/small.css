@@ -162,7 +162,7 @@ main {
 
 #map {
   margin: auto;
-  border: 2px solid #05386b;
+  border: 2px solid #312553;
 }
 .contactdiv {
 	display: grid;
@@ -179,7 +179,7 @@ main {
 
 .contact_info h3, .contact_info h4 {
   text-align: center;
-  color: #05386B;
+  color: #312553;
 }
 
 #social {
@@ -243,9 +243,9 @@ footer a:visited {
 }
 
 #gallery_imgs figcaption {
-  font-family: Century-Schoolbook;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-  color: #05386B;
+  color: #312553;
   text-align: center;
 }
 

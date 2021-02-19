@@ -51,42 +51,14 @@ a {
     color:#8fe0ff;
   }
   
-  h2 {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #5cdb95;
-    text-shadow: 1px 1px 1px #05386b;
-  }
-  
-  h3 {
-    font-family: Century-Schoolbook;
-    font-size: 1.2em;
-    color: #5cdb95;
-    text-shadow: .5px .5px .5px #05386b;
-  }
-  
-  h4 {
-    text-decoration: underline;
-    font-family: 'Titillium Web', sans-serif;
-  }
+
   
   main {
     margin: auto;
     max-width: 400px;
   }
   
-  .motto {
-    font-style: italic;
-    font-size: .9em;
-    letter-spacing: 1pt;
-    color: #379683;
-  }
   
-  p {
-    font-family: Century-Schoolbook;
-    font-size: 1em;
-    color:	#5CDB95;
-  }
   
   img[data-src] {
     filter: blur(.4em);
@@ -98,23 +70,3 @@ a {
     margin-top: 50px;
   }
   
-  footer {
-    background-color:#379683;
-    color: #05386B;
-    font-family: Century-Gothic;
-    font-size: 16px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 10px;
-    border-radius: 15px;
-  }
-  
-  #copyright {
-    font-family: 'Titillium Web', sans-serif;
-  }
-  
-  #dates {
-    font-size: 1.0em;
-    font-family: 'Titillium Web', sans-serif;
-    padding-top: 5px;
-  }
