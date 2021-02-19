@@ -29,4 +29,11 @@
 		display: none;
 	}
 }
+#gallery_imgs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #gallery_imgs figure:hover {
+    box-shadow: 0 0 50px #05386B;
+  }
 }
