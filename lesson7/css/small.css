@@ -260,4 +260,10 @@ img[data-src] {
 img {
   filter: blur(0em);
   transition: filter 0.5s;
+  margin-top: 50px;
+}
+
+[data-src] {
+  min-width: 50px;
+  min-height: 50px;
 }
