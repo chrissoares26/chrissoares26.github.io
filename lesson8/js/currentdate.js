@@ -16,3 +16,7 @@ if (day1[day] == 'Friday') {
 else {
     document.getElementById("announce").style.display = "none";
 }
+
+function adjustSeverity(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
