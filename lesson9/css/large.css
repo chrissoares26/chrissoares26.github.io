@@ -1,0 +1,39 @@
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    .m {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+
+    /* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
+#gallery_imgs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #gallery_imgs figure:hover {
+    box-shadow: 0 0 50px #312553;
+  }
+}
