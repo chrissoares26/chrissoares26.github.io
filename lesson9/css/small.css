@@ -1,4 +1,26 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.cards section {
+  margin: auto;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: #d4dec9;
+}
+
+.cards section img {
+  border-radius: 8px;
+  width: 80%;
+  height: auto;
+  padding: 5px;
+  filter: blur(0em);
+  transition: filter 1s;
+}
 
 header {
     background-color: #312553;
@@ -270,66 +292,25 @@ img {
   min-height: 50px;
 }
 
-form fieldset {
-  margin: 2rem 0;
-  border: 1px solid #312553;
-  border-radius: 10px;
-  padding: .5rem 2%;
+#homeTitle {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-bottom: 5px;
 }
 
-form legend {
-  color: #312553;
-  margin: 0 1rem;
-  padding: 0 .5rem;
-  font-size: 1.2rem;
-}
-
-form label.top, form label.info, form div {
-  display: block;
-  padding-top: 1rem;
-  color: #312553;
-  font-size: .8rem;
-}
-
-form label.info input:required {
-  border-left: red solid 6px;
-}
-
-form label.info input:required:valid {
-  border-left: green solid 6px;
-}
-
-form label.top input, form label.info input, form label.storm select {
-  display: block;
-  font-size: 1rem;
-  border: solid 1px #000;
-  border-radius: 4px;
-  padding: .5rem;
-  color: #312553;
+#homeTitle img {
   width: 100%;
-  max-width: 20rem;
-  background-color: #ffffff;
 }
 
-form label.radios {
-  display: block;
-  padding-top: 1em;
+#wireframes {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
-form label.storm {
-  display: block;
-  padding: .75rem 0;
-  color: #312553;
-}
 
-form input.submit_button {
-  border: none;
-  background-color: #312553;
-  color: #8fe0ff;
-  font-size: 1.5rem;
-  border-radius: 1rem;
-  padding: .75rem 1.5rem;
-  margin: 0 2rem 5%;
-  width: 96%;
-  max-width: 20rem;
-}
+
+
+
+

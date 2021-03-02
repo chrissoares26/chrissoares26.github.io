@@ -1,4 +1,13 @@
 @media only screen and (min-width: 60em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    
+      .cards section {
+        display: block;
+        width: 325px;
+      }
+    
     header img {
         width: 100%;
     }
