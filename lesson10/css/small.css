@@ -1,0 +1,317 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.cards section {
+  margin: auto;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: #8fe0ff;
+  height: 100%;
+}
+
+.cards section img {
+  border-radius: 8px;
+  width: 80%;
+  height: auto;
+  padding: 5px;
+  filter: blur(0em);
+  transition: filter 1s;
+}
+
+header {
+    background-color: #312553;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 760px;
+    margin:0 auto;
+    
+}
+h2 {
+  color:#312553;
+}
+#announce {
+    display: none;
+    background-color: #312553;
+    color: #8fe0ff;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+header img {
+    width: 80px;
+
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+	font-family: 'Montserrat';
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #8fe0ff;
+}
+.herodiv {
+	margin: 10px auto;
+  position: relative;}
+  
+.herodiv img {
+  width: 100%;
+}
+
+.summary {
+	position: absolute;
+  top: 0px;
+  font-size: .75em;
+	background: radial-gradient(#54416d, #312553);
+	border: 1px solid #000;
+	padding: 5px;
+	box-shadow: 0 0 30px #111;
+    opacity: .8;
+    margin: 10px 0 0 10px;
+}
+
+.summary p {
+    color: #8fe0ff;
+    font-weight: bolder;
+  }
+  
+  .summary h3 {
+    color: white;
+    font-weight: bolder;
+  }
+.m {
+    font-style: italic;
+    color: #8fe0ff;
+    margin: 0 0 0 17px;
+}
+#map {
+    margin: auto;
+    border: 2px solid #05386b;
+  }
+.forecastdiv {
+    display: none;
+  }
+  
+#forecastDay {
+    background-color: #312553;
+    color: #8fe0ff;
+    font-family: 'Montserrat', sans-serif;
+  }
+.forecastdiv h3, .articlediv h3 {
+    text-align: center;
+  }  
+nav {
+	margin: 0 auto;
+	width:100%;
+	background-color: #8fe0ff;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #312553;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #8fe0ff;
+	background-color: #312553;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+main {
+    max-width: 760px;
+    background-color: #fffafa;
+    margin: 0 auto;
+}
+
+.contents{
+    max-width: 740px;
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 10px;
+    background-color: lightslategray;
+    color: white;
+    font-style: italic;
+}
+
+.articlediv p {
+    color: #54416d;
+  }
+  
+.articlediv {
+      display: block;
+      margin-top: 15px;
+      padding: 10px;
+    border: 1px solid #000;
+}
+  
+#article_img {
+    width: 100%;
+  }
+.forecastdiv {
+	display: none;
+}
+
+#fiveDay img {
+	width:40%;
+
+}
+
+#map {
+  margin: auto;
+  border: 2px solid #312553;
+}
+.contactdiv {
+	display: grid;
+	grid-template-columns: 1fr;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+	border: 1px solid #000;
+}
+.contact_info {
+  grid-column: 1;
+  margin: auto;
+}
+
+.contact_info h3, .contact_info h4 {
+  text-align: center;
+  color: #312553;
+}
+
+#social {
+  padding-left: 0.5em;
+}
+
+#social li {
+  list-style-type: none;
+  width: 2em;
+  float: left;
+  margin: 0.5em;
+}
+
+#social a:hover svg {
+  fill: #666;
+}
+#social img{
+  width: 100%;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+footer {
+	background-color: #312553;
+	max-width:760px;
+	margin:0 auto;
+    color: #8fe0ff;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a:visited {
+	color:white;
+} 
+
+#copyright {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+#lastUpdate {
+    font-size: 1.0em;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+}
+
+#gallery_imgs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+#gallery_imgs figure {
+  margin: 0;
+  padding: 0;
+}
+
+#gallery_imgs figcaption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #312553;
+  text-align: center;
+}
+
+.galleryImage {
+  width: 100%;
+}
+
+img[data-src] {
+  filter: blur(0.4em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  margin: auto;
+}
+
+[data-src] {
+  min-width: 50px;
+  min-height: 50px;
+}
+
+#homeTitle {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+#homeTitle img {
+  width: 100%;
+}
+
+#wireframes {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+
+
+
+
+
