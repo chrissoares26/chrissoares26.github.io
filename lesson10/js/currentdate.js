@@ -25,7 +25,7 @@ else {
 }
 
 // Current Weather for Weather Summary
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=da923bb8ec61575a7dfe5e3106bb43c1";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=b4adeaa160de827fe9803c23760192cb";
 
 fetch(apiURL)
  .then((response) => response.json())
@@ -40,7 +40,7 @@ fetch(apiURL)
 
 // 5 day forecast
 
-const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=da923bb8ec61575a7dfe5e3106bb43c1"
+const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b4adeaa160de827fe9803c23760192cb"
 
 fetch(apiURL_forecast)
    .then(response => response.json())

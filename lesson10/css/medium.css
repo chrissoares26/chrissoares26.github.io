@@ -23,9 +23,7 @@
     float: right;
     width: 35%;
   }
-  .forecastdiv {
-    display: block;
-  }
+ 
   #map {
     grid-column: 1;
     grid-row: 1;
@@ -102,5 +100,16 @@
         width: 96%;
         max-width: 20rem;
       }
+      .forecasts {
+        padding: 3px;
+        margin: 2px;
+        border: 2px solid #312553;
+      }
     
+      .forecastdiv {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+      }
   }
