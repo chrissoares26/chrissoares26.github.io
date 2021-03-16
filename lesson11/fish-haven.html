@@ -1,11 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chris Soares">
+        <meta name="description" content="Chris Soares' Weather Site Home Page">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">      
+        <title>Home Page</title>
+      </head>
+  <body>
+    <div id="announce" style="display: block;"></div>
+    <header>
+        <picture>
+        <img src="images/logoweather.png" alt="The Weather Guy Logo">
+        </picture>
+        <section class ="headings">
+            <h1>The Weather Guy</h1>
+            <div class="m">"Everything that you need to know"</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li> 
+                <a href="index.html">Home</a>
+            </li>
+            <li class="active">  
+             <a href="preston.html">Preston</a>
+            </li>
+            <li> 
+                <a href="soda-springs.html">Soda Springs</a>
+            </li>
+            <li> 
+                <a href="fish-haven.html">Fish Haven</a>
+            </li>
+            <li> 
+                <a href="stormcenter.html">Storm Center</a>
+            </li>
+            <li> 
+                <a href="gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class= "section_head">Preston</h2>
+        <div class="herodiv">
+          <picture>
+            <source media="(max-width: 400px)" srcset="images/landscape1-400.jpg">
+            <source media="(max-width: 800px)" srcset="images/landscape1-800.jpg">
+            <img src="images/landscape1.jpg" alt="Preston Farmland">
+          </picture>
+                  <section class="summary">
+            <h3>Weather Summary</h3>
+              <p>Currently: 
+                <span id="currently"></span>
+              </p>
+              <p>Temp: 
+                <span id="temp"></span>
+              &#176;F</p>
+              <p>Wind Chill: 
+                <span id="windchill"></span>
+              </p>
+              <p>Humidity: 
+                <span id="humidity"></span>
+              %</p>
+              <p>Wind Speed: 
+                <span id="windspeed"></span>
+              mph</p>
+                </section>
+        </div>
+        <h3 id="forecastTitle">5 Day Forecast</h3>
+        <div class="forecastdiv">
+          <div class="forecasts">
+            <div id="day1"></div>
+            <img src="#" alt="" id="img1">
+            <div id="temp1"></div>
+          </div>
+          <div class="forecasts">
+            <div id="day2"></div>
+            <img src="#" alt="" id="img2">
+            <div id="temp2"></div>
+          </div>
+          <div class="forecasts">
+            <div id="day3"></div>
+            <img src="#" alt="" id="img3">
+            <div id="temp3"></div>
+          </div>
+          <div class="forecasts">
+            <div id="day4"></div>
+            <img src="#" alt="" id="img4">
+            <div id="temp4"></div>
+          </div>
+          <div class="forecasts">
+            <div id="day5"></div>
+            <img src="#" alt="" id="img5">
+            <div id="temp5"></div>
+          </div>
+              </div>
+        <div class="articlediv">
+          <picture>
+            <source media="(max-width: 400px)" srcset="images/articleimg-400.jpg">
+            <source media="(max-width: 800px)" srcset="images/articleimg-800.jpg">
+            <img id="article_img" src="images/articleimg.jpg" alt="Moutain near river">
+          </picture>
+        <h3>Articles</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate nulla soluta, eveniet vel cum recusandae sint iure vitae nobis totam temporibus distinctio dicta nam doloribus. Expedita fuga enim in consequatur illo excepturi ex omnis rem inventore, vel, a aliquam sequi vero. Fugit, modi velit! Iusto sit beatae, nisi quidem similique itaque aliquam aspernatur commodi ad error aut, eveniet fugit eligendi consequatur odit dolore! Veritatis sunt odio unde amet quas rem reprehenderit, fugiat quod velit libero cupiditate perferendis. Tenetur corporis ullam tempore. Ratione quo, voluptates commodi placeat aliquam aperiam explicabo, minima laborum nam consequatur tenetur magni, at vitae accusantium amet.</p>
+      </div>
+      <div class="contactdiv">
+        <div class="contact_info">
+          <h4>Contact Information</h4>
+          <h3>1234 Preston Main</h3>
+          <h3>Preston, Idaho 83035</h3>
+          <h3>111-222-3333</h3>
+          <h3>contact@theweatherguy.com</h3>
+        </div>
+        <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+        <a href="https://www.embedgooglemap.net/en/"></a>
+        <ul id="social" class="clearfix">
+            <li>
+            <a class="socialmedia" target="_blank" href="https://www.facebook.com"> 
+                <img class="icon" src="images/facebook.png" alt="facebook"></a>
+            </li>
+            <li>
+            <a class="socialmedia" target="_blank" href="https://twitter.com"> 
+                <img class="icon" src="images/twitter.png" alt="twitter"></a>
+            </li>
+            <li>
+            <a class="socialmedia" target="_blank" href="https://www.instagram.com">
+                <img class="icon" src="images/instagram.png" alt="instagram"></a>
+            </li>
+        </ul>
+
+      </div>
+      <footer>
+        <div>
+          &copy;<span id="copyright"></span> | Chris Soares | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+        <span id="dates"></span>
+      </footer>
+      <script src="js/currentdate.js"></script>
+      <script src="js/windchill.js"></script>
+      <script src="js/fish-heaven-weather.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+      </script>
+      <script>
+        WebFont.load({google: {families: ['Montserrat', 'Arial']}});
+      </script>
+    </body>
+  </html>
