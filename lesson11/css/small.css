@@ -410,3 +410,22 @@ form input.submit_button {
   max-width: 20rem;
 }
 
+.townEvents {
+  border: #54416d 1px solid;
+  margin:auto;
+  max-width: 80%;
+  box-shadow: 0 0 50px #312553;
+}
+
+.townEvents h3, p{
+  text-align: center;
+}
+
+.townEvents hr {
+  border-top: #54416d 1px dashed;
+  padding: 5px;
+  width: 50%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
