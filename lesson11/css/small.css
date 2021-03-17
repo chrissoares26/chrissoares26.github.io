@@ -245,6 +245,9 @@ footer {
 
 footer a:visited {
 	color:white;
+}
+footer a:link {
+	color:#8fe0ff;
 } 
 
 #copyright {
