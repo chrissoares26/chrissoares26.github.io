@@ -1,6 +1,6 @@
 //Hamburger icon
 function toggleMenu() {
-   document.getElementsByClassName("nav_bar")[0].classList.toggle("responsive");
+   document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
   }
 
 //Get Footer Date
