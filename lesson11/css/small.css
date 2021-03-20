@@ -432,3 +432,8 @@ form input.submit_button {
   border-left: none;
   border-right: none;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
