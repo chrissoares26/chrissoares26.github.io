@@ -1,0 +1,48 @@
+header {
+    display: grid;
+    grid-template-columns: 200px 3fr;
+    grid-template-rows: 33px 33px 34px;
+    background-color: #304B66;
+
+}
+nav {
+	margin: 0 auto;
+	width:100%;
+	background-color: #304B66;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #547268;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #304B66;
+	background-color: white;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #547268;
+}
+.logo-left {
+    grid-row: 1/4;
+}
+
+.main-img {
+    max-width: 100%;
+}
