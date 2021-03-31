@@ -1,0 +1,44 @@
+{
+    "business": [
+        {
+            "name": "BizGrow Marketing",
+            "streetaddress": "1706 N Cozy Lane",
+            "city": "Saratoga Springs",
+            "zip": "84045",
+            "phone": "801-458-9802",
+            "url": "https://bizgrowmarketing.com/",
+            "web":"BizGrow Marketing",
+            "imageurl": "https://bizgrowmarketing.com/wp-content/uploads/2020/01/BizGrow-Logo-2.jpg"
+        },
+        {
+            "name": "Janae Forsey Business Services",
+            "streetaddress": "1803 N 3870 W",
+            "city": "Saratoga Springs",
+            "zip": "84045",
+            "phone": "801-787-3576",
+            "url": "https://www.taxandtransact.com/",
+            "web":"Janae Forsey",
+            "imageurl": "https://le-cdn.website-editor.net/f673b50d3468433dbaf69d228410cb5a/dms3rep/multi/opt/janae%2Bwebsite%2Blogo%2Brectangle-1920w-480w.jpg"
+        },
+        {
+            "name": "iDrive Logistics",
+            "streetaddress": "1850 W Ashton Blvd",
+            "city": "Lehi",
+            "zip": "84043",
+            "phone": "888-797-0929",
+            "url": "https://idrivelogistics.com/",
+            "web":"iDrive Logistics",
+            "imageurl": "https://www.idrivelogistics.com/idrive15/wp-content/uploads/2020/09/new_logo-4.png"
+        },
+        {
+            "name": "Anderson Engineering",
+            "streetaddress": "2053 N Hillcrest Rd",
+            "city": "Lehi",
+            "zip": "84043",
+            "phone": "801-972-6222",
+            "url": "https://andersoneng.com/",
+            "web":"iDrive Logistics",
+            "imageurl": "https://www.andersoneng.com/wp-content/uploads/2021/01/Asset-1-300.svg"
+        }
+    ]
+}
