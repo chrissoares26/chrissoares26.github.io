@@ -37,6 +37,10 @@ nav {
 nav ul li.active a {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+.responsive li {
+	display: block;
+}
 main {
     max-width: 760px;
     margin: 0 auto;
@@ -197,9 +201,10 @@ main button a{
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: auto;
+    margin-top: 10px;;
     margin-bottom: 10px;
     width: 96%;
-    max-width: 20rem;
+    max-width: 15rem;
   }
 .plans {
     display: grid;
@@ -213,6 +218,7 @@ main button a{
     padding-bottom: 5px;
     padding-right: 5px;
     grid-column: 1/2;
+    border-radius: 10px;
 }
 .bronze {
     background-color: #cd7f32;
@@ -220,6 +226,7 @@ main button a{
     padding-bottom: 5px;
     padding-right: 5px;
     grid-column: 2/3;
+    border-radius: 10px;
 }
 .gold {
     background-color: gold;
@@ -227,6 +234,7 @@ main button a{
     padding-bottom: 5px;
     padding-right: 5px;
     grid-column: 2/3;
+    border-radius: 10px;
 }
 .non {
     background-color: green;
@@ -234,6 +242,7 @@ main button a{
     padding-bottom: 5px;
     padding-right: 5px;
     grid-column: 1/2;
+    border-radius: 10px;
 
 }
 
