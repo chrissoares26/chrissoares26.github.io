@@ -321,3 +321,7 @@ main button a{
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
+  .direct button {
+    display: none;
+  }

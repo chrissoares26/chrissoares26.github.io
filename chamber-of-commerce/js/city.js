@@ -8,6 +8,7 @@ fetch(requestURL)
     const business = jsonObject["business"];
     for(let i=0; i<business.length; i++){
         let card= document.createElement("section");
+        card.setAttribute("class","column");
         let h3= document.createElement("h3");
         h3.textContent=business[i].name;
     card.appendChild(h3);
@@ -51,9 +52,11 @@ document.querySelector("div.cards").appendChild(card); */
 
         let image=document.createElement("img");
         image.setAttribute("src", business[i].imageurl);
+        image.setAttribute("class", "bus-img");
         image.setAttribute("alt", business[i].name+" "+business[i].lastname+"-"+business[i].order);
         card.appendChild(image);
         document.querySelector("div.cards").appendChild(card);
+        
 }
 
 });
