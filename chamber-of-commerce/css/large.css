@@ -17,4 +17,10 @@
 .list-view section {
   display: inline;
 }
+#social {
+  padding-left: 0.5em;
+  margin: auto;
+  width: 20%;
+  
+}
 }

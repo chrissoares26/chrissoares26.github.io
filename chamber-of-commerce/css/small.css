@@ -34,6 +34,13 @@ nav {
 	background-color:#748880;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 nav ul li.active a {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -285,11 +292,10 @@ main button a{
   #social {
     padding-left: 0.5em;
     margin: auto;
+    width: 40%;
     
   }
-  #social{
-    align-items: center;
-  }
+
   #social li{
     list-style-type: none;
     width: 2em;

@@ -1,5 +1,7 @@
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
+var elems = document.getElementsByClassName('bus-img');
+
 
 // Declare a loop variable
 var i;
@@ -10,7 +12,9 @@ function listView() {
 //     elements[i].style.width = "100%";
 //   }
 document.querySelector(".cards").style.display="block";
-document.querySelectorAll(".bus-img").style.display="none";
+for (var i=0;i<elems.length;i+=1){
+    elems[i].style.display = 'none';
+  }
 }
 
 // Grid View
@@ -19,5 +23,7 @@ function gridView() {
 //     elements[i].style.width = "50%";
 //   }
 document.querySelector(".cards").style.display="grid";
-document.querySelectorAll(".bus-img").style.display="inline-block";
+for (var i=0;i<elems.length;i+=1){
+    elems[i].style.display = 'inline-block';
+  }
 }
