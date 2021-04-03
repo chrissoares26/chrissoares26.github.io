@@ -252,6 +252,7 @@ main button a{
 }
 .non {
     background-color: green;
+    color: white;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
