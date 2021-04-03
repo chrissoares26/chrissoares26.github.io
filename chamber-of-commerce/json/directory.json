@@ -39,6 +39,49 @@
             "url": "https://andersoneng.com/",
             "web":"iDrive Logistics",
             "imageurl": "https://www.andersoneng.com/wp-content/uploads/2021/01/Asset-1-300.svg"
+        },
+        {
+            "name": "Peak Business",
+            "streetaddress": "1257 N 300 W",
+            "city": "Lehi",
+            "zip": "84043",
+            "phone": "435-359-2684",
+            "url": "https://peakbusinessvaluation.com/",
+            "web":"Peak Business",
+            "imageurl": "https://peakbusinessvaluation.com/wp-content/uploads/business-appraiser-utah-peak-business-valuation-logo.png"
+        },
+        {
+            "name": "Fresh Lime",
+            "streetaddress": "3300 Ashton Blvd",
+            "city": "Lehi",
+            "zip": "84043",
+            "phone": "800-266-8960",
+            "url": "https://freshlime.com/",
+            "web":"Fresh Lime",
+            "imageurl": "https://www.freshlime.com/wp-content/uploads/2020/12/Fl_logoNewNoTM.png"
+        },
+        {
+            "name": "Game Face",
+            "streetaddress": "Main St",
+            "city": "Saratoga Springs",
+            "zip": "84045",
+            "phone": "800-266-8960",
+            "url": "https://gamefaceinc.com/",
+            "web":"Game Face",
+            "imageurl": "https://www.gamefaceinc.com/wp-content/uploads/2019/03/Game-Face-Logo-Full-Color-300x86.png"
+        },
+        {
+            "name": "Custom Business Sales",
+            "streetaddress": "3940 Traverse Mountain Blvd",
+            "city": "Lehi",
+            "zip": "84043",
+            "phone": "801-695-4488",
+            "url": "https://custombusinesssales.com/",
+            "web":"Custome Business Sales",
+            "imageurl": "http://www.custombusinesssales.com/uploads/9/9/0/6/99065898/published/2018-logo.png?1535386858"
         }
+        
+        
+
     ]
 }
