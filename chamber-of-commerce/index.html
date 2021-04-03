@@ -14,6 +14,7 @@
     <title>Chamber of Commercer Saratoga Springs</title>
 </head>
 <body>
+  
 <header>
 <div class="logo-left"><picture><img src="images/saratoga-logo.png" alt="saratoga-logo" width=200px></picture></div>
 
@@ -38,7 +39,11 @@
       </li>
   </ul>
   </nav>
+  
 <main>
+  <div class="popup" onclick="myFunction()">Click to see the weather alerts
+    <span class="popuptext" id="myPopup">Alert of Snow in the next 3 days! Be Careful!</span>
+    </div>
 <div class="section1">
 <img src="images/saratoga.jpeg" alt="View from Saratoga Springs" class="main-img">
 <h1>Saratoga Springs Chamber Members</h1>
@@ -47,7 +52,7 @@
 </div>
 <div class="why">
 <h2>Why Join Us</h2>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quas iusto natus optio pariatur unde a dolorum omnis deserunt vitae placeat possimus tempore, eum cumque ducimus asperiores minima officia provident autem perspiciatis deleniti. Omnis quam incidunt numquam et repudiandae voluptatum amet velit itaque sit blanditiis aliquid debitis voluptas dolores accusantium nulla vero, excepturi, placeat dolor delectus molestias mollitia doloremque! Molestias, minus doloribus accusamus quo laboriosam debitis suscipit obcaecati non officiis ipsa et! Ex rerum maiores voluptate quae, numquam minima excepturi, omnis nam voluptas ducimus nostrum quo. Nesciunt deleniti repudiandae sit quisquam qui earum nulla, animi quod impedit ratione alias minima veniam facilis officiis temporibus eveniet, labore quibusdam nemo praesentium! Qui laudantium corrupti facilis voluptates laboriosam, at perspiciatis laborum dignissimos doloribus itaque ratione consequatur delectus ipsa saepe accusamus eaque quaerat aliquam dolorum. Natus repudiandae ab nisi ipsa dignissimos, possimus velit nobis nihil dicta explicabo quia, amet impedit. Esse sequi veritatis voluptatum.</p>
+<p>Do you want to grow your business? Here is your place then! Here at the chamber of commerce from Saratoga Springs, you have the chance to meet other business owners and create great networking connections. You will have the opportunity to promote your business through the many activities that we host in the city. We also allow sharing information about your business through our social media pages. Don't miss this opportunity and join us now!</p>
 <button><a href="join.html">JOIN TODAY</a></button>
 </div>
 
@@ -110,6 +115,25 @@
       <h3>801-766-9793</h3>
       <h3>contact@saratogaspringscity.com</h3>
 </div>
+<iframe id="map" src="https://maps.google.com/maps?q=Saratoga-Springs%20Utah&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+<a href="https://www.embedgooglemap.net/en/"></a>
+<ul id="social" class="clearfix">
+    <li>
+    <a class="socialmedia" target="_blank" href="https://www.facebook.com"> 
+        <img class="icon" src="images/facebook.png" alt="facebook"></a>
+    </li>
+    <li>
+    <a class="socialmedia" target="_blank" href="https://twitter.com"> 
+        <img class="icon" src="images/twitter.png" alt="twitter"></a>
+    </li>
+    <li>
+    <a class="socialmedia" target="_blank" href="https://www.instagram.com">
+        <img class="icon" src="images/instagram.png" alt="instagram"></a>
+    </li>
+</ul>
+
+</div>
 </main>
 <footer>
 <div>
@@ -117,9 +141,8 @@
     </div>
 <span id="dates"></span>
 </footer>
-<script src="js/hum-button.js"></script>
 <script src="js/current-date.js"></script>
-<script src="js/city.js"></script>
+<script src="js/alert.js"></script>
 <script src="js/windchill.js"></script>
 <script src="js/weather.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

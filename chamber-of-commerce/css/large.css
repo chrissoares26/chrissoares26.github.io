@@ -23,4 +23,11 @@
   width: 20%;
   
 }
+.direct-buttons {
+  display: block;
+}
+.direct-buttons button {
+  background-color: #304B66;
+  color: white;
+ }
 }

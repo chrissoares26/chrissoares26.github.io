@@ -17,19 +17,13 @@
 }
 
 @media only screen and (min-width: 32.5em) {
-	.cards section {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr;
-	}
-  
-	.cards section:nth-child(odd) img {
-	  grid-column: 1;
-	}
-  
-	.cards section:nth-child(odd) #details {
-	  grid-column: 2;
-	  grid-row: 1;
-	}
+	.cards {
+        grid-template-columns: 1fr 1fr;
+      }
+    
+      .cards section {
+        display: block;
+      }
   
 	
 	#announce {
@@ -66,9 +60,6 @@
 		font-size: 1.8em;
 	  }
 	
-	  header img {
-		padding-right: 10px;
-	  }
 	
 		.heading h1 {
 			font-size: 2.5em;
@@ -116,7 +107,7 @@
 		.forecasts {
 		  padding: 3px;
 		  margin: 2px;
-		  border: 2px solid #312553;
+		  border: 2px solid #304B66;
 		}
 	  
 		.forecastdiv {
@@ -125,4 +116,12 @@
 		  grid-template-columns: 1fr 1fr 1fr;
 		  text-align: center;
 		}
+		.direct-buttons {
+			display: block;
+		 }
+
+		 .direct-buttons button {
+			background-color: #304B66;
+			color: white;
+		 }
 	}
